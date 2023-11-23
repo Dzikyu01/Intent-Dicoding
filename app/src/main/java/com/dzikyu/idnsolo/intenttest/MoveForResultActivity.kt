@@ -1,11 +1,13 @@
 package com.dzikyu.idnsolo.intenttest
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.RadioGroup
 
-class MoveForResultActivity : AppCompatActivity() {
+class MoveForResultActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var btnChoose: Button
     private lateinit var rgNumber: RadioGroup
     companion object {

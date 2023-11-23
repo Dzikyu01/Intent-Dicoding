@@ -15,4 +15,6 @@
     <string name="data_received">Data Diterima</string>
     <string name="object_received">Object Diterima</string>
     <string name="this_is_moveactivity">Ini MoveActivity</string>
+    <string name="move_for_result">Move For Result</string>
+    <string name="result_form_activity">Result Form Activity</string>
 </resources>
